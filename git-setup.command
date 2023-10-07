@@ -16,7 +16,7 @@ git config diff.gzip.command $gzip
 
 # use gitattributes instead  to specify which files to zip
 # applies to all files (?)
-# git config filter.gzip.required true
+git config filter.gzip.required true
 
 
 #git config include.path ../.gitconfig #mv -f {,.git/}config

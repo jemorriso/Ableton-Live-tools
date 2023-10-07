@@ -7,6 +7,7 @@ git config filter.gzip.smudge $gzip
 git config filter.gzip.clean $gzip
 # when git needs to diff, unzip
 git config diff.gzip.command $gzip
+git config filter.gzip.required true
 
 mkdir -p ./git/hooks
 cp pre-commit $hook && chmod +x $hook
