@@ -1,4 +1,4 @@
-gzip='zcat -f'
+gzip="zcat -f"
 hook=.git/hooks/pre-commit
 
 # unzip on add
